@@ -14,7 +14,7 @@ return (
     
     <div className ="mt-8 md:flex flex-row justify-evenly justify-center items-center">
         
-        <img src="/minicomi.png" alt="minicomi logo" className ="w-48 place-self-center"/>
+        <img src="/minicomi.png" alt="minicomi logo" className ="w-40 place-self-center"/>
     
         {/* <ul className={'transition-all duration-500 ease-in-out hidden md:flex flex row justify-between text-3xl gap-8 opacity-100  translate-y-0'}> */}
         <ul className="hidden md:flex flex row justify-between text-2xl gap-8">
@@ -94,6 +94,7 @@ return (
           />
         </svg>
     </button>  
+    
         <div className={`
             md:hidden fixed top-0 w-screen h-full bg-iceblue-500 text-darkblue-500 place-content-center transition-all duration-500 ease-in-out
             ${isOpen 
@@ -101,7 +102,8 @@ return (
             : 'opacity-0 -translate-y-2 pointer-events-none'
             }
         `}> 
-                <ul className="text-3xl flex flex-col items-center justify-items-center gap-6 ">
+                <img src="/minicomi.png" alt="minicomi logo" className ="w-24 place-self-center"/>
+                <ul className="text-2xl flex flex-col items-center translate-y-2 gap-2 ">
                     <li className ="p-4">
                         <a href="">Home</a>
                     </li>
